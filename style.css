@@ -32,3 +32,20 @@ li{
   color:white;
   font-family:Helvetica;
 }
+
+.navbar {
+  overflow: hidden;
+  background-color: #383838;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 2px 2px 2px 2px;
+  text-decoration: none;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: gray;
+}
